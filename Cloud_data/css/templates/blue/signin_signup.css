@@ -1,0 +1,448 @@
+.container_bg1
+{
+	border:1px solid #e1e1e1;
+	background:url(images/sign_bg.png) center top #fff;
+	width:100%;
+	min-height:500px;
+	padding:10px 10px 0;
+	margin:15px auto 0;
+	text-align:left;
+	box-shadow:inset 0 0 .2em rgba(255,255,255,.3),inset 0 0 .2em rgba(255,255,255,.3),0 1px 10px rgba(0,0,0,.2);
+	-o-box-shadow:inset 0 0 .2em rgba(255,255,255,.3),inset 0 0 .2em rgba(255,255,255,.3),0 1px 10px rgba(0,0,0,.2);
+	-moz-box-shadow:inset 0 0 .2em rgba(255,255,255,.3),inset 0 0 .2em rgba(255,255,255,.3),0 1px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow:inset 0 0 .2em rgba(255,255,255,.3),inset 0 0 .2em rgba(255,255,255,.3),0 1px 10px rgba(0,0,0,.2);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px;
+	overflow:hidden;
+}
+.signup_head
+{
+	padding:0!important
+}
+.signup_h1
+{
+	padding:0!important;
+	margin:0!important;
+	width:auto!important
+}
+.signup_h1 h1
+{
+	background:url(images/signup_head.jpg) repeat-x;
+	height:52px;
+	font-family:Helvetica!important;
+	padding:0 15px;
+	font-size:18px!important;
+	text-align:left!important;
+	line-height:52px;
+	margin:0!important;
+	border-top-left-radius:4px 4px;
+	border-top-right-radius:4px 4px
+}
+#section_signin,#section_signup
+{
+	background:url(images/sign_section_bg.png) center bottom no-repeat;
+	width:871px;
+	margin:0 auto 10px
+}
+#section_signin h1,#section_signup h1
+{
+	text-align:center;
+	color:#323232;
+	font-size:35px;
+	font-weight:400;
+	margin:15px 0
+}
+.clsSign_Top
+{
+	background:#f8f8f8!important;
+	margin:0 auto;
+	min-height:380px;
+	padding:15px 20px 0;
+}
+	html
+{
+	font-size:100%
+}
+.sign-fb-my-account
+{
+	text-align:center;
+	color:#444;
+}
+.sign-fb-my-account p
+{
+	font-size:19px
+}
+.sign-fb-my-account a.Sign_Fb_Bg
+{
+	background:url(images/facebook.png) center top no-repeat;
+	display:block;
+	height:40px;
+	width:295px;
+	text-indent:-2000px;
+	margin:10px auto
+}
+.sign-fb-my-account a.Sign_Fb_Bg:hover
+{
+	background:url(images/facebook_hover.png) center top no-repeat;
+	width:295px
+}
+.sign-fb-my-account a.Sign_up_Fb_Bg
+{
+	background:url(images/facebook_up.png) center top no-repeat;
+	display:block;
+	height:40px;
+	width:295px;
+	text-indent:-2000px;
+	margin:10px auto
+}
+.sign-fb-my-account a.Sign_up_Fb_Bg:hover
+{
+	background:url(images/facebook_up_hover.png) center top no-repeat;
+	width:295px
+}
+.Sign_Or_Row
+{
+	background:url(images/sign_border.png) center center no-repeat;
+	height:40px;
+	line-height:37px
+}
+.Sign_Or_Row span
+{
+	font-size:12px;
+	font-weight:700
+}
+.Txt_input
+{
+	position: relative;
+/*-webkit-box-shadow: inset #f9f9f9 5px 7px 5px;
+-moz-box-shadow: inset #f9f9f9 5px 7px 5px;
+box-shadow: inset #f9f9f9 5px 7px 5px;*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;
+border: 2px solid #f0f0f0;
+padding: 0 10px;
+margin: 0 0 10px;
+color:#aaaaaa;
+background: none repeat scroll 0 0 #ffffff;
+
+}
+.Txt_input input
+{
+	width:90%;
+	background:#fff;
+	border:0 !important;
+	color:#767676;
+	padding:12px 12px 12px 3px;
+	border-radius:0;
+	box-shadow:none !important;
+}
+#Input_Mail.Txt_input i
+{
+	color:#d9d9d9;
+	margin-top:1.5%;
+	font-weight:700
+}
+	#Input_Mail.Txt_input:hover i
+{
+	color:#eb3c44
+}
+	#Input_Password.Txt_input i
+{
+	color:#d9d9d9;
+	margin-top:2%;
+	font-weight:700
+}
+	#Input_Password.Txt_input:hover i
+{
+	color:#eb3c44
+}
+	#Input_First.Txt_input i,#Input_Last.Txt_input i,#Input_User.Txt_input i
+{
+	color:#d9d9d9;
+	margin-top:2%;
+	/*font-weight:700*/
+}
+	#Input_First.Txt_input:hover i,#Input_Last.Txt_input:hover i,#Input_User.Txt_input:hover i
+{
+	color:#eb3c44
+}
+.Txt_input .labelBlur
+{
+	overflow: hidden;
+padding: 12px 12px 12px 3px;
+position: absolute;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 88%;
+	/*position:absolute;
+	padding:12px 0;
+	color: #999999;*/
+}
+.labelusername{
+	padding-left:3px !important;
+}
+	
+.clsSign_Email p
+{
+	padding:0 0 10px;
+	color:red
+}
+.clsSign_Email .Sign_Reminder_Me
+{
+	margin:0 0 0 15px
+}
+.align_left
+{
+	text-align:left
+}
+.Txt_input:hover,.Txt_input:focus
+{
+	border:2px solid #eb3c44;
+}
+.btn_sign_old
+{
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background:#eb3c44;
+   font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-transform:uppercase;
+    margin-bottom: 0;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 8px 12px;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+  color:#FFFFFF;
+  overflow: hidden;
+}
+.btn_sign:hover:before, .btn_sign:focus:before, .btn_sign:active:before {
+  right: 0;
+}
+.btn_sign_old:before 
+{ content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #333333;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  }
+  .btn_sign {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+    background:#eb3c44;
+     border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-transform:uppercase;
+    margin-bottom: 0;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 8px 12px;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+  color:#FFFFFF;
+  overflow: hidden;
+  border-radius: 0px;
+  }
+.btn_sign:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  color:#FFFFFF;
+  top: 0;
+  background: #ff99a1;
+  height: 4px;
+  -moz-transition: all .51s;
+   -o-transition: all .51s;
+   -webkit-transition: all .51s;
+   transition: all .51s;
+  
+}
+.btn_sign:hover
+{
+	color:#FFFFFF;
+	opacity:0.84;
+	text-decoration:none;
+}
+.btn_sign:hover:before, .btn_sign:focus:before, .btn_sign:active:before {
+  left: 0;
+  right: 0;
+}
+
+#section_signin a,#section_signup a
+{
+	color:#eb3c44;
+}
+.sign-fb-my-account a.sign_up_tw_bg
+{
+	background:url(images/twitter_up.png) no-repeat;
+	height:40px;
+	display:block;
+	width:294px;
+	line-height:5;
+	margin:0 auto
+}
+.sign-fb-my-account a.sign_up_tw_bg:hover
+{
+	background:url(images/twitter_up_hover.png) no-repeat;
+	height:40px;
+	width:294px;
+	line-height:5
+}
+.sign-fb-my-account a.sign_google_bg:hover
+{
+	background:url(images/signin_with_google_hv.png) no-repeat;
+	height:40px;
+	width:294px;
+	line-height:5
+}
+.sign-fb-my-account a.sign_google_bg
+{
+	background:url(images/signin_with_google.png) no-repeat;
+	height:40px;
+	display:block;
+	width:294px;
+	line-height:5;
+	margin:0 auto
+}
+.sign-fb-my-account a.sign_up_google_bg:hover
+{
+	background:url(images/google_up_hover.png) no-repeat;
+	height:40px;
+	width:294px;
+	line-height:5
+}
+.sign-fb-my-account a.sign_up_google_bg
+{
+	background:url(images/google_up.png) no-repeat;
+	height:40px;
+	display:block;
+	width:294px;
+	line-height:5;
+	margin:0 auto
+}
+.create_acc
+{
+	padding-top:10px
+}
+/*.clearfix{
+	clear:both;
+}*/
+form
+{
+	border-color:#FFF #FFF #E1E1E1 !important;
+	clear:both!important;
+	margin:0 0 18px;
+}
+	#signup>p
+{
+	margin-left:10px
+}
+.gotomsg {
+    padding: 5px 13px;
+    text-transform: uppercase;
+}
+.inputmail{
+	float:right;
+}
+.signinremainme{
+	vertical-align: middle;
+	box-shadow: 0 0 0 #F8F8F8;
+}
+.signinremainme_span{
+	vertical-align: middle;
+	color: #393C3D;
+	font-weight:normal;
+}
+.signemailcolor{
+	color:#FF0000;
+}
+.btn_list
+{
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+   border:none;
+   border-radius:0px !important;
+  background:#eb3c44;
+   font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-transform:uppercase;
+    margin-bottom: 0;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 8px 12px;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+  color:#FFFFFF;
+  overflow: hidden;
+}
+.btn_list:hover:before, .btn_list:focus:before, .btn_list:active:before,.btn_list_green:hover:before, .btn_list_green:focus:before, .btn_list_green:active:before {
+  right: 0;
+  left:0;
+}
+.btn_list:hover,.btn_list_green:hover
+{
+	color:#FFFFFF;
+	opacity:0.84;
+	text-decoration:none;
+}
+.btn_list:before 
+{ content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  color:#FFFFFF;
+  top: 0;
+  background: #ff99a1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  }

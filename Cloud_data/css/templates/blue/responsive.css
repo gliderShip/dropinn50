@@ -1,0 +1,27 @@
+@media (min-width:300px) and (max-width:480px){
+	.room_head{
+	    max-width: 180px;
+	}
+}
+@media (min-width:300px) and (max-width:640px){
+	.search-area{
+		bottom:0px;
+	}
+	.search-area h1{
+		font-size:23px;
+	}
+}
+@media (min-width:320px) and (max-width:360px) {
+.sign-fb-my-account a.Sign_Fb_Bg, .sign-fb-my-account a.sign_tw_bg, .sign-fb-my-account a.sign_google_bg, .sign-fb-my-account a.Sign_Fb_Bg:hover, .sign-fb-my-account a.sign_tw_bg:hover, .sign-fb-my-account a.sign_google_bg:hover, .buttonText, 
+.sign-fb-my-account a.Sign_up_Fb_Bg, .sign-fb-my-account a.Sign_up_Fb_Bg:hover, .sign-fb-my-account a.sign_up_tw_bg, .sign-fb-my-account a.sign_up_tw_bg:hover, .sign-fb-my-account a.sign_up_google_bg, .sign-fb-my-account a.sign_up_google_bg:hover, .buttonText:hover
+{
+	width: 226px;
+	background-size:100%;
+	border:none;
+}
+}
+@media (min-width:768px) and (max-width:980px){
+	#currency{
+		margin-top:5px;
+	}
+}

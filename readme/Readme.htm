@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>DropInn Readme Documentation</TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 3.6  (Linux)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGEDBY" CONTENT="test ">
+	<META NAME="CHANGED" CONTENT="20150904;6524300">
+	<META NAME="CHANGEDBY" CONTENT="test ">
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P ALIGN=CENTER><IMG SRC="images/logo.png" NAME="graphics1" ALIGN=BOTTOM WIDTH=137 HEIGHT=45 BORDER=0></P>
+<P ALIGN=CENTER><FONT FACE="Verdana"><FONT SIZE=4><B>DropInn Readme</B></FONT></FONT></P>
+<HR>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>1. Server Requirements</B></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>2. Installation</B></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>3. Template Customization </B></FONT>
+</P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>4. Troubleshooting</B></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>5. Version History</B></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>6. License Agreement</B></FONT></P>
+<HR>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>1. Server Requirements</B></FONT></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Operating
+	System: Linux, Windows </FONT></FONT>
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Web
+	Server: Apache</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>PHP
+	5 or higher</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>MySQL
+	5 or Higher</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Mod_rewrite
+	</FONT></FONT>
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Cron
+	Jobs</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>CURL</FONT></FONT>
+		</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>GD
+	library</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Facebook
+	Application Id</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Facebook
+	Application Secret Key</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Twitter
+	Application Id</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Twitter
+	Application Secret Key</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Verdana"><FONT SIZE=2>Google
+	Map Key</FONT></FONT> 
+	</P>
+</UL>
+<UL>
+	<LI><P><FONT FACE="Verdana"><FONT SIZE=2>Ioncube Loader</FONT></FONT>
+		</P>
+</UL>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>2. Installation</B></FONT></P>
+<TABLE WIDTH=827 CELLPADDING=2 CELLSPACING=2>
+	<TR>
+		<TD WIDTH=1268 STYLE="border: none; padding: 0in">
+			<P><FONT FACE="Verdana"><FONT SIZE=2><B>1.</B> Upload all files in
+			the archieve to the root directory or subdirectory (i.e
+			yoursite.com or yoursite.com/install).</FONT></FONT></P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><BR><B>2.</B> Change the
+			permission of the following folders and files to 0777:</FONT></FONT></P>
+			<P>/install<BR>/install/config.php [After the installation revert
+			the file permission]<BR>/app/config<BR>/app/config/config.php
+			[After the installation revert the file
+			permission]<BR>/images<BR>/images/users<BR>/files<BR>/files/cache<BR>/files/timthumb.php</P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><B>3.</B></FONT></FONT> Run
+			the /install directory to install the system <FONT FACE="Verdana"><FONT SIZE=2>(i.e
+			yoursite.com/install)</FONT></FONT></P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><BR></FONT></FONT><FONT FACE="Verdana"><FONT SIZE=2><B>4.</B></FONT></FONT>
+			Open the /php.ini file and place following line
+			<BR>zend_extension=&quot;/home/dropinn/public_html/ioncube/ioncube_loader_lin_5.2.so&quot;
+			<BR>But remove following lines with your Absolute root path-
+			/home/dropinn/public_html/</P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><BR></FONT></FONT><FONT FACE="Verdana"><FONT SIZE=2><B>5.</B></FONT></FONT>
+			Run the /ioncube/loader-wizard.php file to install the Ioncupe
+			loader <FONT FACE="Verdana"><FONT SIZE=2>(i.e
+			yoursite.com/ioncube/loader-wizard.php)</FONT></FONT></P>
+			<P><STRONG>Manual Installation </STRONG>
+			</P>
+			<P><STRONG><FONT FACE="Verdana"><FONT SIZE=2>1.</FONT></FONT></STRONG><FONT FACE="Verdana"><FONT SIZE=2>Edit
+			the file app/config/config.php and edit your mysql details in the
+			following lines:</FONT></FONT></P>
+			<P>$config['hostname'] = &quot;hostname&quot;;<BR>$config['db_username']
+			= &quot;<FONT FACE="Verdana">mysqluser</FONT>&quot;;<BR>$config['db_password']
+			= &quot;<FONT FACE="Verdana">mysqlpass</FONT>&quot;;<BR>$config['db']
+			= &quot;<FONT FACE="Verdana">mysqlDB</FONT>&quot;;</P>
+			<P><STRONG>2.</STRONG>$config['base_url'] = &quot;Site URL &quot;;
+			<FONT FACE="Verdana"><FONT SIZE=2>(i.e yoursite.com/site)</FONT></FONT></P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><B>3.</B> In PhpMyAdmin,
+			import the file install/install.sql to create the database
+			structure.</FONT></FONT></P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><BR><B>4.</B> Change the
+			permission of the following folders and files to 0777:</FONT></FONT></P>
+			<P>/images<BR>/images/users</P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><B>5.</B></FONT></FONT> Open
+			the /php.ini file and place following line
+			<BR>zend_extension=&quot;/home/dropinn/public_html/ioncube/ioncube_loader_lin_5.2.so&quot;
+			<BR>But remove following lines with your Absolute root path-
+			/home/dropinn/public_html/</P>
+			<P><FONT FACE="Verdana"><FONT SIZE=2><BR></FONT></FONT><FONT FACE="Verdana"><FONT SIZE=2><B>6.</B></FONT></FONT>
+			Run the /ioncube/loader-wizard.php file to install the Ioncube
+			loader <FONT FACE="Verdana"><FONT SIZE=2>(i.e
+			yoursite.com/ioncube/loader-wizard.php)</FONT></FONT></P>
+			<P>&nbsp;</P>
+			<P><B>7.</B> To access the admin panel /administrator <FONT FACE="Verdana"><FONT SIZE=2>(i.e
+			yoursite.com/administrator)</FONT></FONT>, login with <B>username:
+			what you entered password: what you entered</B> on the login page</P>
+			<P><BR><BR>
+			</P>
+			<P><B>8.</B> Set the Cron job for every 1 hour for get the latest
+			currency values from online. <BR><B>Cron URL :</B>
+			SITE_URL/currency_converter</P>
+			<P><BR><BR>
+			</P>
+			<P><B>9.</B> Set the Cron job for every 1 hour for to check the
+			reservation request is expired or not. <BR><B>Cron URL :</B>
+			SITE_URL/cron/expire</P>
+			<P><BR><BR>
+			</P>
+			<P><B>10.</B> Set the Cron job for every 1 hour for calendar auto
+			sync. <BR><B>Cron URL :</B> SITE_URL/cron/calendar_sync</P>
+			<P><B>11.</B> Set the Cron job for every 1 hour for reservation
+			status. <BR><B>Cron URL :</B> SITE_URL/cron/accept_status</P>
+			<P><B>12.</B> Set the Cron job for every 1 hour for after checkin
+			status changed to checkout. <BR><B>Cron URL :</B>
+			SITE_URL/cron/after_checkin</P>
+		</TD>
+	</TR>
+</TABLE>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>3. Template Customization </B></FONT>
+</P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><FONT SIZE=2>Editing DropInn
+design is very simple by modifying the php and CSS files. The
+location of the template files for the design can be found in folder:</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><FONT SIZE=2>/app/views/templates/</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><FONT SIZE=2>/css/templates/.</FONT></FONT>
+</P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>4. Troubleshooting</B></FONT></P>
+<TABLE WIDTH=827 CELLPADDING=2 CELLSPACING=2>
+	<TR>
+		<TD WIDTH=1268 STYLE="border: none; padding: 0in">
+			<P><FONT FACE="Verdana"><FONT SIZE=2><B>1. Help, I am getting HTTP
+			error 400 when accessing my site!</B></FONT></FONT></P>
+			<P><FONT FACE="Verdana">You will need to enable mod_rewrite option
+			on your apache server</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>5. Version History</B></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><FONT SIZE=2>DropInn Standard
+Version 5.0</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Verdana"><B>6. License Agreement</B></FONT></P>
+<P><FONT FACE="Verdana"><FONT SIZE=2>If any queries,please email me
+at </FONT></FONT><STRONG><A HREF="mailto:support@cogzidel.com"><FONT FACE="Verdana"><FONT SIZE=2>support@cogzidel.com</FONT></FONT></A></STRONG>
+<FONT FACE="Verdana"><FONT SIZE=2>or contact us from
+</FONT></FONT><STRONG><A HREF="http://www.cogzidel.com/contact-us"><FONT FACE="Verdana"><FONT SIZE=2>http://www.cogzidel.com/contact-us</FONT></FONT></A></STRONG></P>
+<P><STRONG><A HREF="http://www.cogzidel.com/"><FONT FACE="verdana"><FONT SIZE=2>http://www.cogzidel.com</FONT></FONT></A></STRONG></P>
+<HR>
+<P ALIGN=JUSTIFY>&nbsp;</P>
+<P ALIGN=CENTER>&nbsp;</P>
+</BODY>
+</HTML>
